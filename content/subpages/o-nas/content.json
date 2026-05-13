@@ -1,0 +1,117 @@
+{
+  "slug": "o-nas",
+  "display_name": "O nas",
+  "kind": "about",
+  "source_url": "/swietliste",
+  "source_title": "ŚWIETLISTE.PL » Artystyczna fotografia ślubna • Dlaczego właśnie my?",
+  "meta_description": "Niesamowite miejsca • emocjonalne i subtelne ujęcia • artystyczna fotografia ślubna dla najbardziej wymagających • Zdjęcia ślubne z klimatem. Cała Polska.",
+  "og_image": "",
+  "hero": {
+    "heading": "Świetliste",
+    "subheading": "Świetliste bo w fotografii, to światło buduje nastrój i oddaje głębię świata. Bo fascynują nas ludzie. Bo nie chcemy rejestrować rzeczywistości, ale utrwalać smak i kolor chwil. Wasze wzruszenia, śmiech, miłość radość i łzy. Bo kochamy życie i lubimy uszczęśliwiać ludzi."
+  },
+  "sections": [
+    {
+      "heading": "Świetliste",
+      "level": 1,
+      "paragraphs": [],
+      "lists": []
+    },
+    {
+      "heading": "Dlaczego Świetliste?",
+      "level": 1,
+      "paragraphs": [
+        "Świetliste bo w fotografii, to światło buduje nastrój i oddaje głębię świata. Bo fascynują nas ludzie. Bo nie chcemy rejestrować rzeczywistości, ale utrwalać smak i kolor chwil. Wasze wzruszenia, śmiech, miłość radość i łzy. Bo kochamy życie i lubimy uszczęśliwiać ludzi."
+      ],
+      "lists": []
+    },
+    {
+      "heading": "Co robimy?",
+      "level": 1,
+      "paragraphs": [
+        "Dla nas fotografia ślubna to ta niepowtarzalna atmosfera i klimat wydarzeń. Reportaż przepełniony emocjami, pięknym światłem i przede wszystkim ludźmi. Ulotnością chwili, radością i wzruszeniem. Czujemy się zaszczyceni, gdy możemy dyskretnie uczestniczyć w tych wyjątkowych momentach Waszego życia. Chcemy zatrzymać dla Was czas, który po latach nabierze mocy."
+      ],
+      "lists": []
+    },
+    {
+      "heading": "Co otrzymujecie?",
+      "level": 1,
+      "paragraphs": [
+        "Kiedy wrócicie już z podróży poślubnej, przeczytacie wszystkie kartki, to co pozostanie to Świetliste obrazy. Komplet papierowych wspomnień, nasączonych emocjami, które przypomną Wam jacy byliście wtedy szczęśliwi. Nic nie sprawia nam większej radości niż uśmiech na Waszych twarzach po oddaniu fotografii w albumie , fotoksiążce czy prezentacji , którą możecie oglądać na dużym ekranie telewizora w salonie."
+      ],
+      "lists": []
+    },
+    {
+      "heading": "Spytajcie o termin!",
+      "level": 1,
+      "paragraphs": [
+        "Mieszkamy i pracujemy w Bydgoszczy, ale fotografujemy na terenie całego kraju. Jeśli przeglądając fotografie na naszym blogu czy galerii fotografii ślubnych czujecie tę samą iskrę, którą my odczuwamy podczas ich tworzenia to śmiało pytajcie o wolny termin. Wystarczy wypełnić krótki formularz kontaktowy .",
+        "Do zobaczenia."
+      ],
+      "lists": []
+    }
+  ],
+  "stories": [],
+  "images": [
+    {
+      "src": "http://swietliste.pl/wp-content/uploads/2017/10/swietliste-fotografujemy-emocje-oferta-cennik-fotografia-slubna-bydgoszcz-fotograf-torun.jpg",
+      "alt": "Fotografia ślubna kujawsko-pomorskie, Fotografia ślubna Bydgoszcz oferta, Fotograf na ślub Bydgoszcz, Świetliste.pl fotografujemy emocje",
+      "width": "960",
+      "height": "400",
+      "srcset": null
+    }
+  ],
+  "useful_links": [
+    {
+      "text": "albumie",
+      "href": "http://swietliste.pl/album-slubny-tradycyjny-z-pergaminem-do-wklejania-zdjec"
+    },
+    {
+      "text": "fotoksiążce",
+      "href": "http://swietliste.pl/fotoksiazka-slubna"
+    },
+    {
+      "text": "prezentacji",
+      "href": "http://swietliste.pl/prezentacja-slubna-slideshow"
+    },
+    {
+      "text": "blogu",
+      "href": "http://swietliste.pl/historie"
+    },
+    {
+      "text": "galerii fotografii ślubnych",
+      "href": "http://swietliste.pl/gallery/fotografia-slubna"
+    },
+    {
+      "text": "krótki formularz kontaktowy",
+      "href": "http://swietliste.pl/kontakt"
+    }
+  ],
+  "all_outbound_links_from_source": [
+    {
+      "text": "albumie",
+      "href": "http://swietliste.pl/album-slubny-tradycyjny-z-pergaminem-do-wklejania-zdjec"
+    },
+    {
+      "text": "fotoksiążce",
+      "href": "http://swietliste.pl/fotoksiazka-slubna"
+    },
+    {
+      "text": "prezentacji",
+      "href": "http://swietliste.pl/prezentacja-slubna-slideshow"
+    },
+    {
+      "text": "blogu",
+      "href": "http://swietliste.pl/historie"
+    },
+    {
+      "text": "galerii fotografii ślubnych",
+      "href": "http://swietliste.pl/gallery/fotografia-slubna"
+    },
+    {
+      "text": "krótki formularz kontaktowy",
+      "href": "http://swietliste.pl/kontakt"
+    }
+  ],
+  "forms": []
+}

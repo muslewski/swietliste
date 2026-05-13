@@ -1,0 +1,63 @@
+{
+  "url": "/retusz",
+  "page_template": "service",
+  "title": "ŚWIETLISTE.PL » Retusz, obróbka i profesjonalna edycja fotografii",
+  "meta_description": "Robisz zdjęcia i nie jesteś z nich w pełni zadowolony? Świetliste może naprawić Twoje zdjęcia nadając im niepowtarzalny klimat. Sprawdź sam!",
+  "og_image": "",
+  "breadcrumbs": [
+    "Świetliste.pl",
+    "Dodamy klimatu Twoim zdjęciom"
+  ],
+  "headings": [
+    {
+      "level": 1,
+      "text": "Dodamy klimatu Twoim zdjęciom"
+    },
+    {
+      "level": 1,
+      "text": "Postprodukcja fotograficzna"
+    },
+    {
+      "level": 1,
+      "text": "Edycja i retusz zdjęć dla profesjonalistów"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "h1",
+      "text": "Dodamy klimatu Twoim zdjęciom"
+    },
+    {
+      "type": "h1",
+      "text": "Postprodukcja fotograficzna"
+    },
+    {
+      "type": "paragraph",
+      "text": "Robisz zdjęcia i nie jesteś z nich w pełni zadowolony? Świetliste może naprawić Twoje zdjęcia nadając im niepowtarzalny klimat Twoje zdjęcia nigdy nie będą już zapomniane. Od teraz możesz mieć zdjęcia jak profesjonalista!"
+    },
+    {
+      "type": "h1",
+      "text": "Edycja i retusz zdjęć dla profesjonalistów"
+    },
+    {
+      "type": "paragraph",
+      "text": "Jesteś fotografem? Wiesz jak zrobić dobre zdjęcie, ale nie chcesz tracić czasu na naukę specjalistycznych programów do edycji? Zleć nam postprocessing Twoich fotografii i oszczędź swój czas i nerwy."
+    },
+    {
+      "type": "paragraph",
+      "text": "Zapytaj o retusz Twoich fotografii »"
+    }
+  ],
+  "images": [],
+  "links": [
+    {
+      "text": "Zapytaj o retusz Twoich fotografii »",
+      "href": "http://swietliste.pl/kontakt"
+    },
+    {
+      "text": "Portret w stylu Fine Art",
+      "href": "http://portret.swietliste.pl/gallery/emocje"
+    }
+  ],
+  "forms": []
+}

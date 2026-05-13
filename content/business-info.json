@@ -1,0 +1,104 @@
+{
+  "name": "Świetliste.pl",
+  "legal_long": "Świetliste.pl » Fotografujemy emocje",
+  "tagline": "Fotografujemy emocje",
+  "specialty": "Artystyczna fotografia ślubna, rodzinna i portretowa",
+  "areas_served": [
+    "Bydgoszcz",
+    "Toruń",
+    "Osielsko",
+    "Trójmiasto (Gdańsk/Gdynia/Sopot)",
+    "Poznań",
+    "Cała Polska"
+  ],
+  "address": {
+    "street": "Gronostajowa 3",
+    "postal_code": "86-031",
+    "city": "Osielsko",
+    "near": "Bydgoszcz",
+    "country": "Polska"
+  },
+  "phone": "+48 609 149 740",
+  "email": "fotograf@swietliste.pl",
+  "social": {
+    "facebook": "https://facebook.com/swietliste",
+    "google_maps": "https://www.google.pl/maps/place/Świetliste.pl+»+Fotografujemy+emocje/@53.1844626,18.0940974,17z/data=!4m2!3m1!1s0x4703138cc0b8cf1d:0x27c733f1db920ed4"
+  },
+  "subdomains": {
+    "main": "swietliste.pl",
+    "family_photography": "dzieci.swietliste.pl",
+    "portrait_gift_sessions": "portret.swietliste.pl"
+  },
+  "third_party_partner_pages": [
+    {
+      "name": "Zankyou (rekomendowani fotografowie)",
+      "url": "https://www.zankyou.pl/p/sesja-pt-pustynna-cisza-a-w-rolach-glownych-daria-i-lukasz"
+    },
+    {
+      "name": "Firmy.net (opinie klientów)",
+      "url": "http://www.firmy.net/fotografia-slubna/swietlistepl,WTCD7,opinie-klientow.html"
+    },
+    {
+      "name": "Warsztaty w Złodziejewie",
+      "url": "https://warsztatywzlodziejewie.pl/kategoria-produktu/warsztaty/"
+    }
+  ],
+  "value_propositions": [
+    "Fotografujemy emocje, nie tylko rejestrujemy wydarzenia",
+    "Reportażowy/dokumentalny styl bez pozowania",
+    "Operowanie pięknym, naturalnym światłem",
+    "Pełna gama produktów drukowanych: albumy wyklejane, fotoksiążki, prezentacje HD"
+  ],
+  "primary_services": [
+    {
+      "name": "Reportaże ślubne",
+      "url_slug": "galeria-reportaze-slubne",
+      "kind": "wedding-reportage"
+    },
+    {
+      "name": "Sesje narzeczeńskie",
+      "url_slug": "galeria-sesje-narzeczenskie",
+      "kind": "engagement"
+    },
+    {
+      "name": "Sesje plenerowe ślubne",
+      "url_slug": "galeria-sesje-plenerowe",
+      "kind": "wedding-outdoor"
+    },
+    {
+      "name": "Fotoksiążki",
+      "url_slug": "produkty-fotoksiazka",
+      "kind": "product"
+    },
+    {
+      "name": "Albumy tradycyjne z pergaminem",
+      "url_slug": "produkty-album-tradycyjny",
+      "kind": "product"
+    },
+    {
+      "name": "Prezentacje HD ze zdjęć",
+      "url_slug": "produkty-prezentacja",
+      "kind": "product"
+    },
+    {
+      "name": "Retusz i postprodukcja",
+      "url_slug": "uslugi-retusz",
+      "kind": "service"
+    }
+  ],
+  "pricing": {
+    "wedding_package_starting_from_pln": 2699,
+    "currency": "PLN",
+    "note": "Pakiety ślubne już od 2699 zł (cena z istniejącego sajtu, do potwierdzenia z klientem przed użyciem na nowej stronie)."
+  },
+  "contact_form_fields_hint": [
+    "Data (data ślubu)",
+    "Miejsce ślubu i wesela",
+    "Telefon kontaktowy",
+    "Jeśli z polecenia — komu podziękować",
+    "Imię",
+    "E-mail",
+    "Wiadomość"
+  ],
+  "response_time": "Zwykle w ciągu jednego dnia"
+}

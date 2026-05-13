@@ -1,0 +1,87 @@
+{
+  "url": "/prezentacja-slubna-slideshow",
+  "page_template": "product",
+  "title": "Świetliste.pl » Prezentacje ze zdjęć ślubnych, wedding slideshow",
+  "meta_description": "Artystyczna prezentacja ze zdjęć ślubnych zrobi wrażenie na Twoich znajomych i rodzinie. Urokliwe spojrzenia, czułe gesty i prawdziwe emocje.",
+  "og_image": "",
+  "breadcrumbs": [
+    "Świetliste.pl",
+    "Multimedialna prezentacja ślubna"
+  ],
+  "headings": [
+    {
+      "level": 1,
+      "text": "Multimedialna prezentacja ślubna"
+    },
+    {
+      "level": 1,
+      "text": "Stylizowane sesje plenerowe dla Niebanalnych"
+    },
+    {
+      "level": 1,
+      "text": "Multimedialny pokaz slajdów ze zdjęć ślubnych"
+    },
+    {
+      "level": 1,
+      "text": "Dla kogo?"
+    },
+    {
+      "level": 1,
+      "text": "Co otrzymujecie"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "h1",
+      "text": "Multimedialna prezentacja ślubna"
+    },
+    {
+      "type": "h1",
+      "text": "Stylizowane sesje plenerowe dla Niebanalnych"
+    },
+    {
+      "type": "h1",
+      "text": "Multimedialny pokaz slajdów ze zdjęć ślubnych"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ślubne fotokasty, pokazy slajdów są starannie wyselekcjonowane i poddane profesjonalnej obróbce fotografie z reportażu ślubnego (przygotowania, błogosławieństwo, ceremonia, wesele, plener) w formie prezentacji Tworzymy multimedialne pokazy slajdów ze zdjęć ślubnych."
+    },
+    {
+      "type": "h1",
+      "text": "Dla kogo?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nie przepadacie za tradycyjnymi filmami ze ślubów, czujecie się speszeni, rozproszeni i dodatkowo stremowani obecnością kamerzysty? Chcecie jednocześnie mieć krótki film, który ukaże klimat i emocje Waszego ślubu. Tak, by można go było łatwo udostępnić swoim bliskim, przyjaciołom czy rodzinie."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tylko najlepsze ujęcia poddane profesjonalnej edycji. Wasze ulubione utwory tworzące tło prezentacji. Wszystkie fotografie są zsynchronizowane z muzyką tworząc jedna spójna całość, która najlepiej oddaje atmosferę tego wyjątkowego dnia. Nie znajdziesz u nas agresywnych efektów odciągających uwagę od Waszych emocji. Staranny dobór kadrów i ich ułożenie tworzy nową jakość oglądania zdjęć ślubnych. Teledysk ślubny z najlepszymi zdjęciami z Waszą ulubiona piosenką w jakości HD wrażenie na znajomych – murowane!"
+    },
+    {
+      "type": "h1",
+      "text": "Co otrzymujecie"
+    },
+    {
+      "type": "paragraph",
+      "text": "» tylko najlepsze fotografie poddane artystycznej obróbce graficznej » jakość HD 1080p, 720p » ciekawy dodatek do tradycyjnego albumu lub fotoksiążki"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zapytaj o taki pokaz slajdów z Twojego ślubu »"
+    }
+  ],
+  "images": [],
+  "links": [
+    {
+      "text": "Zapytaj o taki pokaz slajdów z Twojego ślubu »",
+      "href": "http://swietliste.pl/kontakt"
+    },
+    {
+      "text": "Fotoksiążki i Fotoalbumy",
+      "href": "http://swietliste.pl/fotoksiazka-slubna"
+    }
+  ],
+  "forms": []
+}

@@ -1,0 +1,51 @@
+{
+  "url": "/kontakt",
+  "page_template": "contact",
+  "title": "ŚWIETLISTE.PL » +48 609 149 740 • Sprawdź wolne terminy",
+  "meta_description": "Fotografia ślubna • Zdjęcia ślubne • Reportaże ślubne • fotografia ślubna Bydgoszcz • zdjęcia ślubne kujawsko-pomorskie • fotograf na ślub Toruń • Poznań",
+  "og_image": "",
+  "breadcrumbs": [
+    "Świetliste.pl",
+    "Kontakt"
+  ],
+  "headings": [
+    {
+      "level": 1,
+      "text": "Kontakt"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "h1",
+      "text": "Kontakt"
+    },
+    {
+      "type": "paragraph",
+      "text": "Spodobał Ci się nasz sposób widzenia świata? Potrzebujesz kogoś komu powierzysz udokumentowanie wyjątkowych chwil Twojego życia? Kogoś przy kim możesz czuć się w pełni swobodnie?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Zapytaj o wolny termin – w mailu koniecznie podaj datę, miejsce ślubu i wesela oraz telefon kontaktowy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Z radością odpowiemy na wszystkie pytania. Odpisujemy zwykle w ciągu jednego dnia. Jeśli minęło znacznie więcej czasu, a Ty wciąż nie otrzymałeś/aś od nas odpowiedzi. Skontaktuj się ponownie, ponieważ prawdopodobnie Twoja wiadomość do nas nie dotarła."
+    },
+    {
+      "type": "paragraph",
+      "text": "Świetliste.pl » Fotografujemy emocje Gronostajowa 3, 86-031 Osielsko, Bydgoszcz tel. 609 149 740 fotograf@swietliste.pl"
+    },
+    {
+      "type": "paragraph",
+      "text": "fotograf@swietliste.pl"
+    }
+  ],
+  "images": [],
+  "links": [
+    {
+      "text": "fotograf@swietliste.pl",
+      "href": "mailto:fotograf@swietliste.pl?body=Napisz nam więcej o Waszym Wyjątkowym dniu. 1. Podaj datę. 2. Miejsce ślubu i wesela, 3. Telefon kontaktowy. 4. Jeśli jesteś z polecenia napisz komu mamy podziękować za polecenie nas."
+    }
+  ],
+  "forms": []
+}

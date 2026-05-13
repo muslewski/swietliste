@@ -1,0 +1,57 @@
+{
+  "slug": "uslugi-retusz",
+  "display_name": "Usługi – Retusz",
+  "kind": "service",
+  "source_url": "/retusz",
+  "source_title": "ŚWIETLISTE.PL » Retusz, obróbka i profesjonalna edycja fotografii",
+  "meta_description": "Robisz zdjęcia i nie jesteś z nich w pełni zadowolony? Świetliste może naprawić Twoje zdjęcia nadając im niepowtarzalny klimat. Sprawdź sam!",
+  "og_image": "",
+  "hero": {
+    "heading": "Dodamy klimatu Twoim zdjęciom",
+    "subheading": "Robisz zdjęcia i nie jesteś z nich w pełni zadowolony? Świetliste może naprawić Twoje zdjęcia nadając im niepowtarzalny klimat Twoje zdjęcia nigdy nie będą już zapomniane. Od teraz możesz mieć zdjęcia jak profesjonalista!"
+  },
+  "sections": [
+    {
+      "heading": "Dodamy klimatu Twoim zdjęciom",
+      "level": 1,
+      "paragraphs": [],
+      "lists": []
+    },
+    {
+      "heading": "Postprodukcja fotograficzna",
+      "level": 1,
+      "paragraphs": [
+        "Robisz zdjęcia i nie jesteś z nich w pełni zadowolony? Świetliste może naprawić Twoje zdjęcia nadając im niepowtarzalny klimat Twoje zdjęcia nigdy nie będą już zapomniane. Od teraz możesz mieć zdjęcia jak profesjonalista!"
+      ],
+      "lists": []
+    },
+    {
+      "heading": "Edycja i retusz zdjęć dla profesjonalistów",
+      "level": 1,
+      "paragraphs": [
+        "Jesteś fotografem? Wiesz jak zrobić dobre zdjęcie, ale nie chcesz tracić czasu na naukę specjalistycznych programów do edycji? Zleć nam postprocessing Twoich fotografii i oszczędź swój czas i nerwy.",
+        "Zapytaj o retusz Twoich fotografii »"
+      ],
+      "lists": []
+    }
+  ],
+  "stories": [],
+  "images": [],
+  "useful_links": [
+    {
+      "text": "Zapytaj o retusz Twoich fotografii »",
+      "href": "http://swietliste.pl/kontakt"
+    }
+  ],
+  "all_outbound_links_from_source": [
+    {
+      "text": "Zapytaj o retusz Twoich fotografii »",
+      "href": "http://swietliste.pl/kontakt"
+    },
+    {
+      "text": "Portret w stylu Fine Art",
+      "href": "http://portret.swietliste.pl/gallery/emocje"
+    }
+  ],
+  "forms": []
+}

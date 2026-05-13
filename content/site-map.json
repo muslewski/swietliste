@@ -1,0 +1,194 @@
+{
+  "site": "Świetliste.pl",
+  "tagline": "Fotografujemy emocje",
+  "description": "Artystyczna fotografia ślubna i rodzinna z Osielska/Bydgoszczy, działająca na terenie całego kraju.",
+  "proposed_subpages": [
+    {
+      "slug": "home",
+      "display": "Strona główna",
+      "kind": "home",
+      "source_url": "/",
+      "summary": "Fotografia ślubna Bydgoszcz • Zdjęcia ślubne Toruń • Reportaże ślubne Gdańsk • naturalna fotografia ślubna Poznań, Gdańsk, Gdynia. Fotografujemy emocje",
+      "sections": [
+        "Mamy dobrą wiadomość dla wszystkich, których interesuje naturalna fotografia ślubna , reportaż ślubny utrzymany w dokumentalnym stylu, pełne miłości historie miłosne i emocjonalne świetliste sesje plenerowe. Jesteście we właściwym miejscu."
+      ],
+      "story_count": 0,
+      "image_count": 10
+    },
+    {
+      "slug": "o-nas",
+      "display": "O nas",
+      "kind": "about",
+      "source_url": "/swietliste",
+      "summary": "Niesamowite miejsca • emocjonalne i subtelne ujęcia • artystyczna fotografia ślubna dla najbardziej wymagających • Zdjęcia ślubne z klimatem. Cała Polska.",
+      "sections": [
+        "Świetliste",
+        "Dlaczego Świetliste?",
+        "Co robimy?",
+        "Co otrzymujecie?",
+        "Spytajcie o termin!"
+      ],
+      "story_count": 0,
+      "image_count": 1
+    },
+    {
+      "slug": "kontakt",
+      "display": "Kontakt",
+      "kind": "contact",
+      "source_url": "/kontakt",
+      "summary": "Fotografia ślubna • Zdjęcia ślubne • Reportaże ślubne • fotografia ślubna Bydgoszcz • zdjęcia ślubne kujawsko-pomorskie • fotograf na ślub Toruń • Poznań",
+      "sections": [
+        "Kontakt"
+      ],
+      "story_count": 0,
+      "image_count": 0
+    },
+    {
+      "slug": "galeria",
+      "display": "Galeria – Historie",
+      "kind": "gallery-index",
+      "source_url": "/historie",
+      "summary": "Historie ślubne opowiedziane w naturalny sposób. Reportaż ślubny w stylu dokumentalnym. Prawdziwe emocje i uczucia na zdjęciach.",
+      "sections": [
+        "Historie"
+      ],
+      "story_count": 3,
+      "image_count": 3
+    },
+    {
+      "slug": "galeria-sesje-narzeczenskie",
+      "display": "Galeria – Sesje narzeczeńskie",
+      "kind": "gallery",
+      "source_url": "/historie/sesje-narzeczenskie",
+      "summary": "Historie ślubne opowiedziane w naturalny sposób. Reportaż ślubny w stylu dokumentalnym. Prawdziwe emocje i uczucia na zdjęciach.",
+      "sections": [
+        "Sesje narzeczeńskie / Zdjęcia zakochanych"
+      ],
+      "story_count": 6,
+      "image_count": 6
+    },
+    {
+      "slug": "galeria-reportaze-slubne",
+      "display": "Galeria – Reportaże ślubne",
+      "kind": "gallery",
+      "source_url": "/historie/reportaze-slubne",
+      "summary": "Fotografia ślubna • Zdjęcia ślubne • Reportaże ślubne • fotografia ślubna Bydgoszcz • Wasze wzruszenia, śmiech, miłość, radość i łzy zatrzymane na zawsze!",
+      "sections": [
+        "Fotografia ślubna – Reportaże ślubne"
+      ],
+      "story_count": 9,
+      "image_count": 9
+    },
+    {
+      "slug": "galeria-sesje-plenerowe",
+      "display": "Galeria – Sesje plenerowe",
+      "kind": "gallery",
+      "source_url": "/historie/fotografie-slubne-sesje-plenerowe",
+      "summary": "Historie ślubne opowiedziane w naturalny sposób. Reportaż ślubny w stylu dokumentalnym. Prawdziwe emocje i uczucia na zdjęciach.",
+      "sections": [
+        "Fotografie ślubne / Sesje plenerowe"
+      ],
+      "story_count": 13,
+      "image_count": 13
+    },
+    {
+      "slug": "oferta-bydgoszcz",
+      "display": "Oferta – Bydgoszcz",
+      "kind": "offer",
+      "source_url": "/oferta-cennik-fotografia-slubna-bydgoszcz",
+      "summary": "Oferta cennik fotografia Ślubna Bydgoszcz 2018/2019",
+      "sections": [
+        "Oferta cennik fotografia Ślubna Bydgoszcz",
+        "Wyjątkowe zdjęcia dla Wyjątkowych ludzi",
+        "Pakiety ślubne już od 2699 zł",
+        "Zarezerwujcie termin już dziś"
+      ],
+      "story_count": 0,
+      "image_count": 1
+    },
+    {
+      "slug": "oferta-torun",
+      "display": "Oferta – Toruń",
+      "kind": "offer",
+      "source_url": "/oferta-cennik-fotografia-slubna-torun",
+      "summary": "Oferta i cennik fotografia Ślubna Toruń 2018/2019",
+      "sections": [
+        "Oferta cennik fotografia Ślubna Toruń",
+        "Wyjątkowe zdjęcia dla Wyjątkowych ludzi",
+        "Pakiety ślubne już od 2699 zł",
+        "Zarezerwujcie termin już dziś"
+      ],
+      "story_count": 0,
+      "image_count": 1
+    },
+    {
+      "slug": "produkty-fotoksiazka",
+      "display": "Produkty – Fotoksiążki",
+      "kind": "product",
+      "source_url": "/fotoksiazka-slubna",
+      "summary": "Profesjonalne fotoksiążki i fotoalbumy. Najwyższej jakości materiały. Sztywne rozkładówki zaprojektowane przez zawodowych grafików.",
+      "sections": [
+        "Fotoksiążki, Fotoalbumy ślubne",
+        "Co to jest fotoksiążka?",
+        "Co oferujemy"
+      ],
+      "story_count": 0,
+      "image_count": 1
+    },
+    {
+      "slug": "produkty-album-tradycyjny",
+      "display": "Produkty – Albumy tradycyjne",
+      "kind": "product",
+      "source_url": "/album-slubny-tradycyjny-z-pergaminem-do-wklejania-zdjec",
+      "summary": "Tradycyjne albumy ślubne dla wszystkich, którzy cenią sobie klasyczne rozwiązania, najwyższą jakość wykonania, oraz ponadczasową elegancję.",
+      "sections": [
+        "Album ślubny tradycyjny z pergaminem do wklejania zdjęć",
+        "Co oferujemy"
+      ],
+      "story_count": 0,
+      "image_count": 1
+    },
+    {
+      "slug": "produkty-prezentacja",
+      "display": "Produkty – Prezentacja HD",
+      "kind": "product",
+      "source_url": "/prezentacja-slubna-slideshow",
+      "summary": "Artystyczna prezentacja ze zdjęć ślubnych zrobi wrażenie na Twoich znajomych i rodzinie. Urokliwe spojrzenia, czułe gesty i prawdziwe emocje.",
+      "sections": [
+        "Multimedialna prezentacja ślubna",
+        "Stylizowane sesje plenerowe dla Niebanalnych",
+        "Multimedialny pokaz slajdów ze zdjęć ślubnych",
+        "Dla kogo?",
+        "Co otrzymujecie"
+      ],
+      "story_count": 0,
+      "image_count": 0
+    },
+    {
+      "slug": "uslugi-retusz",
+      "display": "Usługi – Retusz",
+      "kind": "service",
+      "source_url": "/retusz",
+      "summary": "Robisz zdjęcia i nie jesteś z nich w pełni zadowolony? Świetliste może naprawić Twoje zdjęcia nadając im niepowtarzalny klimat. Sprawdź sam!",
+      "sections": [
+        "Dodamy klimatu Twoim zdjęciom",
+        "Postprodukcja fotograficzna",
+        "Edycja i retusz zdjęć dla profesjonalistów"
+      ],
+      "story_count": 0,
+      "image_count": 0
+    },
+    {
+      "slug": "bonusy",
+      "display": "Bonusy – Tapety",
+      "kind": "info",
+      "source_url": "/bonusy",
+      "summary": "Masz ochotę na zmianę na swoim pulpicie? Darmowe tapety na pulpit Twojego komputera od Świetliste.pl. Najpopularniejsze rozdzielczości, duże rozmiary.",
+      "sections": [
+        "Bonusy"
+      ],
+      "story_count": 0,
+      "image_count": 9
+    }
+  ]
+}

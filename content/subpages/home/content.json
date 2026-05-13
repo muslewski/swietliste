@@ -1,0 +1,171 @@
+{
+  "slug": "home",
+  "display_name": "Strona główna",
+  "kind": "home",
+  "source_url": "/",
+  "source_title": "ŚWIETLISTE.PL » Fotografia ślubna Bydgoszcz, zdjęcia ślubne Toruń",
+  "meta_description": "Fotografia ślubna Bydgoszcz • Zdjęcia ślubne Toruń • Reportaże ślubne Gdańsk • naturalna fotografia ślubna Poznań, Gdańsk, Gdynia. Fotografujemy emocje",
+  "og_image": "http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Bydgoszcz-zdjecia-slubne-Bydgoszcz-sesja-rustykalna-boho.jpg",
+  "hero": {
+    "heading": "Mamy dobrą wiadomość dla wszystkich, których interesuje naturalna fotografia ślubna , reportaż ślubny utrzymany w dokumentalnym stylu, pełne miłości historie miłosne i emocjonalne świetliste sesje plenerowe. Jesteście we właściwym miejscu.",
+    "subheading": ""
+  },
+  "sections": [
+    {
+      "heading": "Mamy dobrą wiadomość dla wszystkich, których interesuje naturalna fotografia ślubna , reportaż ślubny utrzymany w dokumentalnym stylu, pełne miłości historie miłosne i emocjonalne świetliste sesje plenerowe. Jesteście we właściwym miejscu.",
+      "level": 1,
+      "paragraphs": [],
+      "lists": []
+    }
+  ],
+  "stories": [],
+  "images": [
+    {
+      "src": "http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Bydgoszcz-zdjecia-slubne-Bydgoszcz-sesja-rustykalna-boho-948x534.jpg",
+      "alt": "Swietliste-fotografia-slubna-Bydgoszcz-zdjecia-slubne-Bydgoszcz-sesja-rustykalna-boho",
+      "width": "948",
+      "height": "534",
+      "srcset": "http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Bydgoszcz-zdjecia-slubne-Bydgoszcz-sesja-rustykalna-boho-948x534.jpg 948w, http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Bydgoszcz-zdjecia-slubne-Bydgoszcz-sesja-rustykalna-boho-628x353.jpg 628w, http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Bydgoszcz-zdjecia-slubne-Bydgoszcz-sesja-rustykalna-boho-300x169.jpg 300w, http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Bydgoszcz-zdjecia-slubne-Bydgoszcz-sesja-rustykalna-boho-768x432.jpg 768w, http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Bydgoszcz-zdjecia-slubne-Bydgoszcz-sesja-rustykalna-boho.jpg 949w"
+    },
+    {
+      "src": "http://swietliste.pl/wp-content/uploads/2014/09/Swietliste-fotografia-slubna-Torun-zdjecia-slubne-Torun-948x534.jpg",
+      "alt": "Świetliste.pl - Fotografia ślubna Toruń, sesje zdjęciowe z klimatem",
+      "width": "948",
+      "height": "534",
+      "srcset": "http://swietliste.pl/wp-content/uploads/2014/09/Swietliste-fotografia-slubna-Torun-zdjecia-slubne-Torun-948x534.jpg 948w, http://swietliste.pl/wp-content/uploads/2014/09/Swietliste-fotografia-slubna-Torun-zdjecia-slubne-Torun-628x353.jpg 628w, http://swietliste.pl/wp-content/uploads/2014/09/Swietliste-fotografia-slubna-Torun-zdjecia-slubne-Torun-300x168.jpg 300w, http://swietliste.pl/wp-content/uploads/2014/09/Swietliste-fotografia-slubna-Torun-zdjecia-slubne-Torun.jpg 949w"
+    },
+    {
+      "src": "http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Bydgoszcz-zdjecia-slubne-Bydgoszcz-plener-slubny-Barcelona-948x534.jpg",
+      "alt": "Swietliste-fotografia-slubna-Bydgoszcz-zdjecia-slubne-Bydgoszcz-plener-slubny-Barcelona",
+      "width": "948",
+      "height": "534",
+      "srcset": "http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Bydgoszcz-zdjecia-slubne-Bydgoszcz-plener-slubny-Barcelona-948x534.jpg 948w, http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Bydgoszcz-zdjecia-slubne-Bydgoszcz-plener-slubny-Barcelona-628x353.jpg 628w, http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Bydgoszcz-zdjecia-slubne-Bydgoszcz-plener-slubny-Barcelona-300x168.jpg 300w, http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Bydgoszcz-zdjecia-slubne-Bydgoszcz-plener-slubny-Barcelona.jpg 949w"
+    },
+    {
+      "src": "http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Torun-zdjecia-slubne-Torun-sesja-rustykalna-948x534.jpg",
+      "alt": "Swietliste-fotografia-slubna-Torun-zdjecia-slubne-Torun-sesja-rustykalna",
+      "width": "948",
+      "height": "534",
+      "srcset": "http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Torun-zdjecia-slubne-Torun-sesja-rustykalna-948x534.jpg 948w, http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Torun-zdjecia-slubne-Torun-sesja-rustykalna-628x353.jpg 628w, http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Torun-zdjecia-slubne-Torun-sesja-rustykalna-300x169.jpg 300w, http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Torun-zdjecia-slubne-Torun-sesja-rustykalna-768x432.jpg 768w, http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Torun-zdjecia-slubne-Torun-sesja-rustykalna.jpg 949w"
+    },
+    {
+      "src": "http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Torun-zdjecia-slubne-Torun-sesja-rustykalna-boho-948x534.jpg",
+      "alt": "Swietliste-fotografia-slubna-Torun-zdjecia-slubne-Torun-sesja-rustykalna-boho",
+      "width": "948",
+      "height": "534",
+      "srcset": "http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Torun-zdjecia-slubne-Torun-sesja-rustykalna-boho-948x534.jpg 948w, http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Torun-zdjecia-slubne-Torun-sesja-rustykalna-boho-628x353.jpg 628w, http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Torun-zdjecia-slubne-Torun-sesja-rustykalna-boho-300x169.jpg 300w, http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Torun-zdjecia-slubne-Torun-sesja-rustykalna-boho-768x432.jpg 768w, http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Torun-zdjecia-slubne-Torun-sesja-rustykalna-boho.jpg 949w"
+    },
+    {
+      "src": "http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Bydgoszcz-zdjecia-slubne-Bydgoszcz-948x534.jpg",
+      "alt": "Swietliste-fotografia-slubna-Bydgoszcz-zdjecia-slubne-Bydgoszcz",
+      "width": "948",
+      "height": "534",
+      "srcset": "http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Bydgoszcz-zdjecia-slubne-Bydgoszcz-948x534.jpg 948w, http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Bydgoszcz-zdjecia-slubne-Bydgoszcz-628x353.jpg 628w, http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Bydgoszcz-zdjecia-slubne-Bydgoszcz-300x168.jpg 300w, http://swietliste.pl/wp-content/uploads/2010/07/Swietliste-fotografia-slubna-Bydgoszcz-zdjecia-slubne-Bydgoszcz.jpg 949w"
+    },
+    {
+      "src": "http://swietliste.pl/wp-content/uploads/2021/07/swietliste-sesje-narzeczenskie.jpg",
+      "alt": "",
+      "width": null,
+      "height": null,
+      "srcset": null
+    },
+    {
+      "src": "http://swietliste.pl/wp-content/uploads/2021/07/swietliste-sesje-reportaze-slubne.jpg",
+      "alt": "reportaże ślubne Bydgoszcz",
+      "width": null,
+      "height": null,
+      "srcset": null
+    },
+    {
+      "src": "http://swietliste.pl/wp-content/uploads/2021/07/swietliste-sesje-plenerowe.jpg",
+      "alt": "Świetliste.pl - Fotografujemy emocje, ślubne sesje plenerowe",
+      "width": null,
+      "height": null,
+      "srcset": null
+    },
+    {
+      "src": "http://swietliste.pl/wp-content/uploads/2021/07/swietliste-zapytaj-wolny-termin.jpg",
+      "alt": "Kliknij i zapytaj o wolny termin!",
+      "width": null,
+      "height": null,
+      "srcset": null
+    }
+  ],
+  "useful_links": [
+    {
+      "text": "",
+      "href": "http://swietliste.pl/historie"
+    },
+    {
+      "text": "naturalna fotografia ślubna",
+      "href": "http://swietliste.pl/historie"
+    },
+    {
+      "text": "reportaż ślubny utrzymany w dokumentalnym stylu,",
+      "href": "http://swietliste.pl/historie/reportaze-slubne"
+    },
+    {
+      "text": "pełne miłości historie miłosne",
+      "href": "http://swietliste.pl/historie/sesje-narzeczenskie"
+    },
+    {
+      "text": "emocjonalne świetliste sesje plenerowe.",
+      "href": "http://swietliste.pl/historie/fotografie-slubne-sesje-plenerowe"
+    },
+    {
+      "text": "(image link)",
+      "href": "http://swietliste.pl/historie/sesje-narzeczenskie"
+    },
+    {
+      "text": "reportaże ślubne Bydgoszcz",
+      "href": "http://swietliste.pl/historie/reportaze-slubne"
+    },
+    {
+      "text": "Świetliste.pl - Fotografujemy emocje, ślubne sesje plenerowe",
+      "href": "http://swietliste.pl/historie/fotografie-slubne-sesje-plenerowe"
+    },
+    {
+      "text": "Kliknij i zapytaj o wolny termin!",
+      "href": "http://swietliste.pl/kontakt"
+    }
+  ],
+  "all_outbound_links_from_source": [
+    {
+      "text": "",
+      "href": "http://swietliste.pl/historie"
+    },
+    {
+      "text": "naturalna fotografia ślubna",
+      "href": "http://swietliste.pl/historie"
+    },
+    {
+      "text": "reportaż ślubny utrzymany w dokumentalnym stylu,",
+      "href": "http://swietliste.pl/historie/reportaze-slubne"
+    },
+    {
+      "text": "pełne miłości historie miłosne",
+      "href": "http://swietliste.pl/historie/sesje-narzeczenskie"
+    },
+    {
+      "text": "emocjonalne świetliste sesje plenerowe.",
+      "href": "http://swietliste.pl/historie/fotografie-slubne-sesje-plenerowe"
+    },
+    {
+      "text": "(image link)",
+      "href": "http://swietliste.pl/historie/sesje-narzeczenskie"
+    },
+    {
+      "text": "reportaże ślubne Bydgoszcz",
+      "href": "http://swietliste.pl/historie/reportaze-slubne"
+    },
+    {
+      "text": "Świetliste.pl - Fotografujemy emocje, ślubne sesje plenerowe",
+      "href": "http://swietliste.pl/historie/fotografie-slubne-sesje-plenerowe"
+    },
+    {
+      "text": "Kliknij i zapytaj o wolny termin!",
+      "href": "http://swietliste.pl/kontakt"
+    }
+  ],
+  "forms": []
+}

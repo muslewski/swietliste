@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  /* Font families — exposed as Tailwind utilities like font-display, font-script, etc. */
+  --font-display: var(--font-playfair), Georgia, serif;
+  --font-serif: var(--font-cormorant-garamond), Georgia, serif;
+  --font-serif-soft: var(--font-cormorant-infant), Georgia, serif;
+  --font-script: var(--font-great-vibes), cursive;
+  --font-garamond: var(--font-eb-garamond), Georgia, serif;
+  --font-bodoni: var(--font-bodoni), Georgia, serif;
+  --font-source-serif: var(--font-source-serif), Georgia, serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-jost: var(--font-jost), system-ui, sans-serif;
+  --font-grotesk: var(--font-space-grotesk), system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Respect reduced motion across all examples */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

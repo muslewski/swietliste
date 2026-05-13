@@ -1,0 +1,105 @@
+{
+  "url": "/historie",
+  "page_template": "gallery-index",
+  "title": "Świetliste.pl » Fotografujemy emocje",
+  "meta_description": "Historie ślubne opowiedziane w naturalny sposób. Reportaż ślubny w stylu dokumentalnym. Prawdziwe emocje i uczucia na zdjęciach.",
+  "og_image": "http://swietliste.pl/wp-content/uploads/2019/09/wiosenna-sesja-narzeczenska-boho-chic-kwitnacy-sad-vw-transporter-t3-1.jpg",
+  "breadcrumbs": [
+    "Świetliste.pl",
+    "Historie"
+  ],
+  "headings": [
+    {
+      "level": 1,
+      "text": "Historie"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "h1",
+      "text": "Historie"
+    }
+  ],
+  "images": [
+    {
+      "src": "http://swietliste.pl/wp-content/uploads/2019/09/wiosenna-sesja-narzeczenska-boho-chic-kwitnacy-sad-vw-transporter-t3-1.jpg",
+      "alt": "sesja narzeczeńska boho chic Bydgoszcz Asia i Marcin, Świetliste.pl Fotografujemy Emocje",
+      "width": null,
+      "height": null,
+      "srcset": null
+    },
+    {
+      "src": "http://swietliste.pl/wp-content/uploads/2020/01/naturalne-reportaze-slubne-swietliste-1.jpg",
+      "alt": "ślub slow wedding, ślub w kościele Garnizonowym w Bydgoszczy, wesele w Dworze Hulanka, stylowy Trabant 601 rat rod, zabytkowy czerwony autobus Ogórek, świetliste – fotografujemy emocje, fotografia ślubna pełna czułości, naturalne zdjęcia ślubne, parafia wojskowa Najświętszej Maryi Panny Królowej Pokoju Bydgoszcz",
+      "width": null,
+      "height": null,
+      "srcset": null
+    },
+    {
+      "src": "http://swietliste.pl/wp-content/uploads/2020/01/swietliste-pastelowy-plener-slubny-we-mgle-wrzosowiska.jpg",
+      "alt": "mglista sesja Moniki i Adriana o wschodzie słońca w lesie, na wrzosowisku, zachód słońca nad rzeką, Świetliste.pl Fotografujemy Emocje",
+      "width": null,
+      "height": null,
+      "srcset": null
+    }
+  ],
+  "links": [
+    {
+      "text": "sesja narzeczeńska boho chic Bydgoszcz Asia i Marcin, Świetliste.pl Fotografujemy Emocje",
+      "href": "http://swietliste.pl/historie/sesje-narzeczenskie"
+    },
+    {
+      "text": "SESJE NARZECZEŃSKIE »",
+      "href": "http://swietliste.pl/historie/sesje-narzeczenskie"
+    },
+    {
+      "text": "ślub slow wedding, ślub w kościele Garnizonowym w Bydgoszczy, wesele w Dworze Hulanka, stylowy Trabant 601 rat rod, zabytkowy czerwony autobus Ogórek, świetliste – fotografujemy emocje, fotografia ślubna pełna czułości, naturalne zdjęcia ślubne, parafia wojskowa Najświętszej Maryi Panny Królowej Pokoju Bydgoszcz",
+      "href": "http://swietliste.pl/historie/reportaze-slubne"
+    },
+    {
+      "text": "REPORTAŻE ŚLUBNE »",
+      "href": "http://swietliste.pl/historie/reportaze-slubne"
+    },
+    {
+      "text": "mglista sesja Moniki i Adriana o wschodzie słońca w lesie, na wrzosowisku, zachód słońca nad rzeką, Świetliste.pl Fotografujemy Emocje",
+      "href": "http://swietliste.pl/historie/fotografie-slubne-sesje-plenerowe"
+    },
+    {
+      "text": "SESJE PLENEROWE »",
+      "href": "http://swietliste.pl/historie/fotografie-slubne-sesje-plenerowe"
+    }
+  ],
+  "forms": [],
+  "stories": [
+    {
+      "name": "Sesje narzeczeńskie",
+      "description": "Sesja narzeczeńska to szansa na wspaniałą przygodę i poznanie się. Dzięki niej będziecie czuć się swobodniej w dniu ślubu.",
+      "link": "http://swietliste.pl/historie/sesje-narzeczenskie",
+      "image": {
+        "src": "http://swietliste.pl/wp-content/uploads/2019/09/wiosenna-sesja-narzeczenska-boho-chic-kwitnacy-sad-vw-transporter-t3-1.jpg",
+        "alt": "sesja narzeczeńska boho chic Bydgoszcz Asia i Marcin, Świetliste.pl Fotografujemy Emocje",
+        "title": "Kliknij by zobaczyć sesje narzeczeńskie / dla zakochanych"
+      }
+    },
+    {
+      "name": "Reportaże ślubne",
+      "description": "Jesteśmy wszędzie, ale tak jakby nas nie było. Zatrzymujemy to co ulotne i nie ingerujemy w bieg wydarzeń, dzięki temu zdjęcia są pełne emocji – zarówno radości jak i wzruszeń.",
+      "link": "http://swietliste.pl/historie/reportaze-slubne",
+      "image": {
+        "src": "http://swietliste.pl/wp-content/uploads/2020/01/naturalne-reportaze-slubne-swietliste-1.jpg",
+        "alt": "ślub slow wedding, ślub w kościele Garnizonowym w Bydgoszczy, wesele w Dworze Hulanka, stylowy Trabant 601 rat rod, zabytkowy czerwony autobus Ogórek, świetliste – fotografujemy emocje, fotografia ślubna pełna czułości, naturalne zdjęcia ślubne, parafia wojskowa Najświętszej Maryi Panny Królowej Pokoju Bydgoszcz",
+        "title": "Kliknij by zobaczyć reportaże ślubne"
+      }
+    },
+    {
+      "name": "Sesje poślubne",
+      "description": "Islandia, Toskania czy szkockie wyspy? Chętnie wybierzemy się z Tobą wszędzie! Uwielbiamy lasy i jeziora o wschodzie słońca, łąki i wrzosowiska skąpane w złotym świetle.",
+      "link": "http://swietliste.pl/historie/fotografie-slubne-sesje-plenerowe",
+      "image": {
+        "src": "http://swietliste.pl/wp-content/uploads/2020/01/swietliste-pastelowy-plener-slubny-we-mgle-wrzosowiska.jpg",
+        "alt": "mglista sesja Moniki i Adriana o wschodzie słońca w lesie, na wrzosowisku, zachód słońca nad rzeką, Świetliste.pl Fotografujemy Emocje",
+        "title": "Kliknij by zobaczyć sesje plenerowe"
+      }
+    }
+  ]
+}
