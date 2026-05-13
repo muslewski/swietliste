@@ -101,7 +101,7 @@ export default function Example2Page() {
 
       {/* Hero */}
       <section className="relative z-10">
-        <div className="mx-auto max-w-7xl px-6 pt-20 pb-24 sm:pt-28">
+        <div className="mx-auto max-w-7xl px-6 pt-10 pb-16 sm:pt-14 sm:pb-20">
           <motion.div
             initial="hidden"
             animate="show"

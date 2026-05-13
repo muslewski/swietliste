@@ -67,7 +67,7 @@ export default function Example10Page() {
 
       {/* HERO */}
       <section className="border-b border-stone-300">
-        <div className="mx-auto max-w-[1500px] px-8 py-24 sm:py-32">
+        <div className="mx-auto max-w-[1500px] px-8 pt-10 pb-20 sm:pt-14 sm:pb-24">
           <motion.div
             initial="hidden" animate="show" variants={heroV}
             className="grid items-end gap-16 md:grid-cols-12"
