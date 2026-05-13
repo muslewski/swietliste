@@ -1,6 +1,5 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
 import { motion, type Variants } from "motion/react";
 import { appleSpring, viewportOnce } from "@/lib/motion";
 import { MotionAccordionItem } from "@/lib/motion-faq";
@@ -40,9 +39,6 @@ export default function Example3Page() {
     <main className="min-h-dvh bg-[#F5F5F7] font-sans text-neutral-900">
       <header className="sticky top-0 z-40 border-b border-neutral-200/80 bg-[#F5F5F7]/85 backdrop-blur-md">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-          <Link href="/" className="text-sm font-medium text-neutral-500 hover:text-neutral-900">
-            ← przykłady
-          </Link>
           <div className="flex items-center gap-6">
             <a href="#historie" className="hidden text-sm text-neutral-500 hover:text-neutral-900 sm:block">Historie</a>
             <div className="text-base font-semibold tracking-tight">Świetliste</div>

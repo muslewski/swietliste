@@ -1,6 +1,5 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
 import { motion, type Variants } from "motion/react";
 import { ease, viewportOnce } from "@/lib/motion";
 import { MotionAccordionItem } from "@/lib/motion-faq";
@@ -101,10 +100,7 @@ export default function Example1Page() {
     <main style={{ background: CREAM, color: INK }} className="font-serif-soft">
       {/* Top bar */}
       <header className="border-b border-stone-300/60">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
-          <Link href="/" className="font-mono text-[10px] uppercase tracking-[0.4em] text-stone-500 hover:text-stone-800">
-            ← wszystkie przykłady
-          </Link>
+        <div className="mx-auto flex max-w-6xl items-center justify-center px-6 py-5">
           <span className="font-mono text-[10px] uppercase tracking-[0.4em] text-stone-500">
             est. 2010 · Osielsko · Bydgoszcz
           </span>

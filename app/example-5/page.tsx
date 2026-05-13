@@ -1,6 +1,5 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
 import { motion, type Variants } from "motion/react";
 import { ease, viewportOnce } from "@/lib/motion";
 import { MotionAccordionItem } from "@/lib/motion-faq";
@@ -47,7 +46,6 @@ export default function Example5Page() {
     <main className="min-h-dvh bg-white text-black [&_*]:rounded-none">
       <header className="border-b-[3px] border-black">
         <div className="mx-auto flex max-w-[1400px] items-center justify-between px-6 py-5">
-          <Link href="/" className="font-mono text-[10px] uppercase tracking-[0.3em] text-neutral-500 hover:text-black">← examples</Link>
           <div className="font-display text-lg font-black tracking-tight">ŚWIETLISTE</div>
           <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-neutral-500">VOL. 01 / 2026</span>
         </div>

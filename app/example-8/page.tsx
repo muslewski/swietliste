@@ -1,7 +1,6 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
 import { useRef } from "react";
-import Link from "next/link";
 import { motion, useScroll, useTransform, type Variants, type MotionValue } from "motion/react";
 import { ease, viewportOnce } from "@/lib/motion";
 import { MotionAccordionItem } from "@/lib/motion-faq";
@@ -117,9 +116,6 @@ export default function Example8Page() {
 
       <header className="absolute inset-x-0 top-0 z-30">
         <div className="mx-auto flex max-w-[1600px] items-center justify-between px-8 py-6 text-stone-100 mix-blend-difference">
-          <Link href="/" className="text-xs uppercase tracking-[0.3em] opacity-80 hover:opacity-100">
-            ←
-          </Link>
           <div className="font-display text-base italic">Świetliste</div>
           <a href={`mailto:${brand.email}`} className="text-xs uppercase tracking-[0.3em] opacity-80 hover:opacity-100">
             kontakt

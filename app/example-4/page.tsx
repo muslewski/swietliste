@@ -1,6 +1,5 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
 import { motion, type Variants } from "motion/react";
 import { ease, viewportOnce } from "@/lib/motion";
 import { MotionAccordionItem } from "@/lib/motion-faq";
@@ -51,7 +50,6 @@ export default function Example4Page() {
     <main className="min-h-dvh bg-white font-sans text-neutral-900">
       <header className="absolute inset-x-0 top-0 z-20">
         <div className="mx-auto flex max-w-[1500px] items-center justify-between px-8 py-8">
-          <Link href="/" className="text-xs uppercase tracking-[0.3em] text-neutral-400 hover:text-neutral-900">←</Link>
           <div className="font-mono text-xs uppercase tracking-[0.4em]">Świetliste</div>
           <a href={`tel:${brand.phoneDigits}`} className="text-xs uppercase tracking-[0.3em] text-neutral-400 hover:text-neutral-900">
             {brand.phone}

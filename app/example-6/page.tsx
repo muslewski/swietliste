@@ -1,6 +1,5 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
 import { motion, type Variants } from "motion/react";
 import { ease, viewportOnce } from "@/lib/motion";
 import { MotionAccordionItem } from "@/lib/motion-faq";
@@ -83,9 +82,6 @@ export default function Example6Page() {
       {/* Floating glass nav */}
       <header className="sticky top-4 z-40 mx-auto mt-4 max-w-4xl px-4">
         <nav className="flex items-center justify-between rounded-full border border-white/50 bg-white/30 px-6 py-3 shadow-[0_8px_32px_rgba(180,140,160,0.15)] backdrop-blur-2xl">
-          <Link href="/" className="text-xs uppercase tracking-[0.2em] text-stone-600 hover:text-stone-900">
-            ←
-          </Link>
           <div className="flex items-center gap-6">
             <a href="#historie" className="hidden text-xs uppercase tracking-[0.2em] text-stone-700 hover:text-stone-900 sm:block">historie</a>
             <div className="font-serif text-base italic tracking-wide text-stone-800">Świetliste</div>

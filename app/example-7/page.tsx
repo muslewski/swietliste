@@ -1,6 +1,5 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
 import { motion, type Variants } from "motion/react";
 import { viewportOnce } from "@/lib/motion";
 import { MotionAccordionItem } from "@/lib/motion-faq";
@@ -47,7 +46,6 @@ export default function Example7Page() {
     <main className="min-h-dvh font-grotesk text-black" style={{ background: "#FFFDF5" }}>
       <header className="border-b-4 border-black">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-          <Link href="/" className="text-xs font-bold uppercase tracking-wider hover:underline">← examples</Link>
           <div className="text-lg font-black uppercase tracking-tight">Świetliste*</div>
           <a href={`tel:${brand.phoneDigits}`} className="text-xs font-bold uppercase tracking-wider hover:underline">{brand.phone}</a>
         </div>

@@ -1,6 +1,5 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
 import { motion, type Variants } from "motion/react";
 import { ease, viewportOnce } from "@/lib/motion";
 import { MotionAccordionItem } from "@/lib/motion-faq";
@@ -57,7 +56,6 @@ export default function Example10Page() {
     <main className="min-h-dvh font-jost text-stone-900" style={{ background: "#FAFAF6" }}>
       <header className="border-b border-stone-300">
         <div className="mx-auto flex max-w-[1500px] items-center justify-between px-8 py-6">
-          <Link href="/" className="text-[10px] uppercase tracking-[0.4em] text-stone-500 hover:text-stone-900">← przykłady</Link>
           <div className="font-bodoni text-2xl tracking-[0.2em]">ŚWIETLISTE</div>
           <a href={`tel:${brand.phoneDigits}`} className="text-[10px] uppercase tracking-[0.4em] text-stone-500 hover:text-stone-900">
             {brand.phone}

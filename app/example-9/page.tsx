@@ -1,6 +1,5 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
 import { motion, type Variants } from "motion/react";
 import { ease, viewportOnce } from "@/lib/motion";
 import {
@@ -53,7 +52,6 @@ export default function Example9Page() {
         <div className="mx-auto max-w-[1500px] px-6 py-3">
           <div className="flex items-baseline justify-between font-mono text-[10px] uppercase tracking-[0.3em] text-stone-600">
             <span>nr 1 · maj 2026</span>
-            <Link href="/" className="hover:text-stone-900">← all examples</Link>
             <span>Bydgoszcz · Toruń · Trójmiasto</span>
           </div>
           <h1 className="my-3 text-center text-7xl tracking-tight md:text-9xl"
