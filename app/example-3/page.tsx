@@ -3,6 +3,7 @@
 import { motion, type Variants } from "motion/react";
 import { appleSpring, viewportOnce } from "@/lib/motion";
 import { MotionAccordionItem } from "@/lib/motion-faq";
+import { CountUp, parseStatValue } from "@/lib/count-up";
 import {
   brand,
   aboutBlocks,
@@ -108,7 +109,8 @@ export default function Example3Page() {
           <div className={`col-span-1 row-span-1 flex flex-col justify-between rounded-3xl bg-neutral-900 p-5 text-white ${SHADOW}`}>
             <p className="text-xs uppercase tracking-[0.2em] opacity-70">Pakiety od</p>
             <p className="text-5xl font-semibold tracking-tight">
-              2699<span className="text-2xl opacity-70"> zł</span>
+              <CountUp to={2699} duration={2.0} />
+              <span className="text-2xl opacity-70"> zł</span>
             </p>
           </div>
 
@@ -116,7 +118,7 @@ export default function Example3Page() {
           <div className={`col-span-1 row-span-1 flex flex-col justify-between rounded-3xl bg-white p-5 ${SHADOW}`}>
             <p className="text-xs uppercase tracking-[0.2em] text-neutral-500">Zrealizowanych</p>
             <p className="text-4xl font-semibold tracking-tight">
-              300<span className="text-neutral-400">+</span>
+              <CountUp to={300} suffix="+" duration={1.8} />
             </p>
             <p className="text-xs text-neutral-500">historii miłosnych</p>
           </div>
@@ -180,18 +182,23 @@ export default function Example3Page() {
           viewport={viewportOnce}
           className="grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-5"
         >
-          {stats.map((s) => (
-            <motion.li
-              key={s.label}
-              variants={bentoTileV}
-              whileHover={{ y: -4, transition: { duration: 0.25 } }}
-              className={`rounded-3xl bg-white p-6 ${SHADOW}`}
-            >
-              <p className="text-xs font-medium uppercase tracking-[0.2em] text-neutral-500">{s.note}</p>
-              <p className="mt-3 text-5xl font-semibold tracking-tight">{s.value}</p>
-              <p className="mt-2 text-sm text-neutral-600">{s.label}</p>
-            </motion.li>
-          ))}
+          {stats.map((s) => {
+            const { num, suffix } = parseStatValue(s.value);
+            return (
+              <motion.li
+                key={s.label}
+                variants={bentoTileV}
+                whileHover={{ y: -4, transition: { duration: 0.25 } }}
+                className={`rounded-3xl bg-white p-6 ${SHADOW}`}
+              >
+                <p className="text-xs font-medium uppercase tracking-[0.2em] text-neutral-500">{s.note}</p>
+                <p className="mt-3 text-5xl font-semibold tracking-tight">
+                  <CountUp to={num} suffix={suffix} duration={1.6} />
+                </p>
+                <p className="mt-2 text-sm text-neutral-600">{s.label}</p>
+              </motion.li>
+            );
+          })}
         </motion.ul>
       </section>
 
@@ -331,7 +338,9 @@ export default function Example3Page() {
             </div>
             <div className={`rounded-3xl bg-amber-50 p-6 ${SHADOW}`}>
               <p className="text-xs font-medium uppercase tracking-[0.2em] text-amber-700">Pakiet ślubny od</p>
-              <p className="mt-2 text-5xl font-semibold tracking-tight text-amber-900">2699 zł</p>
+              <p className="mt-2 text-5xl font-semibold tracking-tight text-amber-900">
+                <CountUp to={2699} suffix=" zł" duration={2.0} />
+              </p>
               <p className="mt-2 text-sm text-amber-900/70">Wycena indywidualna.</p>
               <a href={`mailto:${brand.email}`}
                  className="mt-4 inline-block rounded-full bg-amber-900 px-5 py-2.5 text-xs font-medium text-amber-50 transition hover:bg-amber-800">
