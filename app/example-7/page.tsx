@@ -4,6 +4,7 @@ import Link from "next/link";
 import { motion, type Variants } from "motion/react";
 import { viewportOnce } from "@/lib/motion";
 import { MotionAccordionItem } from "@/lib/motion-faq";
+import { CountUp, parseStatValue } from "@/lib/count-up";
 import {
   brand,
   aboutBlocks,
@@ -40,8 +41,6 @@ const stampV: Variants = {
  */
 const ACCENT = "#FF6B6B";
 const YELLOW = "#FFD93D";
-const VIOLET = "#A78BFA";
-const MINT = "#9FE2BF";
 
 export default function Example7Page() {
   return (
@@ -95,8 +94,8 @@ export default function Example7Page() {
             <motion.div variants={stampV} className="md:col-span-5">
               <div className="relative rotate-2 border-4 border-black bg-white" style={{ boxShadow: "10px 10px 0 0 #000" }}>
                 <img src={heroImages[0]} alt="Świetliste sesja" className="aspect-[4/5] w-full object-cover" />
-                <div className="absolute -bottom-3 -right-3 border-4 border-black bg-black px-3 py-1 text-xs font-black uppercase text-white"
-                     style={{ background: VIOLET }}>
+                <div className="absolute -bottom-3 -right-3 border-4 border-black px-3 py-1 text-xs font-black uppercase text-black"
+                     style={{ background: YELLOW }}>
                   PLATE 001
                 </div>
                 <div className="absolute -left-4 top-6 -rotate-6 border-4 border-black px-3 py-2 text-xs font-black uppercase"
@@ -130,19 +129,24 @@ export default function Example7Page() {
       <section className="border-b-4 border-black">
         <div className="mx-auto max-w-7xl px-6 py-12">
           <ul className="grid grid-cols-2 gap-4 md:grid-cols-4">
-            {stats.map((s, i) => (
-              <li key={s.label}
-                  className="border-4 border-black p-5 transition active:translate-x-[4px] active:translate-y-[4px] active:shadow-none"
-                  style={{
-                    background: [YELLOW, MINT, VIOLET, ACCENT][i],
-                    boxShadow: "6px 6px 0 0 #000",
-                    transform: i % 2 === 0 ? "rotate(-0.5deg)" : "rotate(0.5deg)",
-                  }}>
-                <p className="text-5xl font-black tracking-tight">{s.value}</p>
-                <p className="mt-2 text-xs font-black uppercase tracking-wider">{s.label}</p>
-                <p className="mt-1 text-[11px] font-bold">{s.note}</p>
-              </li>
-            ))}
+            {stats.map((s, i) => {
+              const { num, suffix } = parseStatValue(s.value);
+              return (
+                <li key={s.label}
+                    className="border-4 border-black p-5 transition active:translate-x-[4px] active:translate-y-[4px] active:shadow-none"
+                    style={{
+                      background: i % 2 === 0 ? YELLOW : ACCENT,
+                      boxShadow: "6px 6px 0 0 #000",
+                      transform: i % 2 === 0 ? "rotate(-0.5deg)" : "rotate(0.5deg)",
+                    }}>
+                  <p className="text-5xl font-black tracking-tight">
+                    <CountUp to={num} suffix={suffix} duration={1.6} />
+                  </p>
+                  <p className="mt-2 text-xs font-black uppercase tracking-wider">{s.label}</p>
+                  <p className="mt-1 text-[11px] font-bold">{s.note}</p>
+                </li>
+              );
+            })}
           </ul>
         </div>
       </section>
@@ -155,7 +159,7 @@ export default function Example7Page() {
             {aboutBlocks.map((b, i) => (
               <li key={b.heading}
                   className="border-4 border-black p-6 transition active:translate-x-[6px] active:translate-y-[6px] active:shadow-none"
-                  style={{ background: [YELLOW, "#FFFFFF", VIOLET][i], boxShadow: "8px 8px 0 0 #000" }}>
+                  style={{ background: [YELLOW, "#FFFFFF", ACCENT][i], boxShadow: "8px 8px 0 0 #000" }}>
                 <p className="text-xs font-black uppercase tracking-wider">0{i + 1} ·</p>
                 <h3 className="mt-3 text-2xl font-black uppercase leading-tight tracking-tight">{b.heading}</h3>
                 <p className="mt-4 text-base font-medium leading-snug">{b.body}</p>
@@ -177,7 +181,7 @@ export default function Example7Page() {
               <li key={p.step}
                   className="border-4 border-black bg-white transition active:translate-x-[6px] active:translate-y-[6px] active:shadow-none"
                   style={{ boxShadow: "8px 8px 0 0 #000", transform: i % 2 === 0 ? "rotate(-0.5deg)" : "rotate(0.5deg)" }}>
-                <div className="border-b-4 border-black px-5 py-2" style={{ background: [ACCENT, YELLOW, VIOLET, MINT][i] }}>
+                <div className="border-b-4 border-black px-5 py-2" style={{ background: i % 2 === 0 ? ACCENT : YELLOW }}>
                   <p className="text-xs font-black uppercase tracking-wider">ETAP {p.step}</p>
                 </div>
                 <div className="p-5">
@@ -228,7 +232,7 @@ export default function Example7Page() {
       </section>
 
       {/* TESTIMONIALS — sticky note cards rotated */}
-      <section className="border-b-4 border-black" style={{ background: VIOLET }}>
+      <section className="border-b-4 border-black" style={{ background: ACCENT }}>
         <div className="mx-auto max-w-7xl px-6 py-16">
           <h2 className="text-5xl font-black uppercase tracking-tight text-white md:text-6xl">
             Co mówią pary?
@@ -238,7 +242,7 @@ export default function Example7Page() {
               <li key={t.author}
                   className="border-4 border-black p-6 transition hover:rotate-0 active:translate-x-[4px] active:translate-y-[4px] active:shadow-none"
                   style={{
-                    background: [YELLOW, MINT, "#FFFFFF", ACCENT, YELLOW, MINT][i],
+                    background: [YELLOW, "#FFFFFF", YELLOW, "#FFFFFF", YELLOW, "#FFFFFF"][i],
                     boxShadow: "8px 8px 0 0 #000",
                     transform: `rotate(${[2, -2, 1, -1, 2, -2][i]}deg)`,
                   }}>
@@ -321,7 +325,7 @@ export default function Example7Page() {
             {faq.map((f, i) => (
               <li key={f.q}
                   className="border-4 border-black"
-                  style={{ background: [YELLOW, MINT, ACCENT, VIOLET, "#FFFFFF"][i], boxShadow: "6px 6px 0 0 #000" }}>
+                  style={{ background: [YELLOW, ACCENT, YELLOW, ACCENT, "#FFFFFF"][i], boxShadow: "6px 6px 0 0 #000" }}>
                 <MotionAccordionItem
                   trigger={({ isOpen }) => (
                     <div className="flex items-baseline justify-between gap-4 p-5">
@@ -348,7 +352,7 @@ export default function Example7Page() {
             {pressBadges.map((p, i) => (
               <li key={p.label}
                   className="border-2 border-black px-3 py-1"
-                  style={{ background: [YELLOW, MINT, VIOLET, ACCENT][i] }}>
+                  style={{ background: i % 2 === 0 ? YELLOW : ACCENT }}>
                 {p.label}
               </li>
             ))}
@@ -367,7 +371,7 @@ export default function Example7Page() {
           <div className="mx-auto mt-12 grid max-w-3xl grid-cols-1 gap-4 md:grid-cols-3">
             {[
               { label: "TEL", value: brand.phone, href: `tel:${brand.phoneDigits}`, bg: YELLOW },
-              { label: "MAIL", value: brand.email, href: `mailto:${brand.email}`, bg: VIOLET },
+              { label: "MAIL", value: brand.email, href: `mailto:${brand.email}`, bg: "#FFFFFF" },
               { label: "GDZIE", value: brand.address.line2, href: brand.social.maps, bg: ACCENT },
             ].map((c) => (
               <a key={c.label} href={c.href}
