@@ -244,12 +244,12 @@ export default function Example3Page() {
           <p className="text-xs font-medium uppercase tracking-[0.2em] text-neutral-500">Jak pracujemy</p>
           <h2 className="mt-3 text-4xl font-semibold tracking-tight">Cztery etapy, jedna historia</h2>
         </div>
-        <ul className="grid auto-rows-[180px] grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <ul className="grid auto-rows-fr grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {processSteps.map((p, i) => (
-            <li key={p.step} className={`flex flex-col justify-between rounded-3xl p-6 ${SHADOW} ${
+            <li key={p.step} className={`flex flex-col justify-between gap-8 rounded-3xl p-6 ${SHADOW} ${
               i === 0 ? "bg-amber-50" : i === 3 ? "bg-neutral-900 text-white" : "bg-white"
             }`}>
-              <p className={`text-5xl font-semibold ${i === 3 ? "text-amber-200" : "text-neutral-300"}`}>{p.step}</p>
+              <p className={`text-5xl font-semibold leading-none ${i === 3 ? "text-amber-200" : "text-neutral-300"}`}>{p.step}</p>
               <div>
                 <h3 className="text-xl font-semibold tracking-tight">{p.title}</h3>
                 <p className={`mt-2 text-sm ${i === 3 ? "text-neutral-400" : "text-neutral-600"}`}>{p.body}</p>
