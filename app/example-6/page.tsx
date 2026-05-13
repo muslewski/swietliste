@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { motion, type Variants } from "motion/react";
 import { ease, viewportOnce } from "@/lib/motion";
+import { MotionAccordionItem } from "@/lib/motion-faq";
 import {
   brand,
   aboutBlocks,
@@ -396,21 +397,24 @@ export default function Example6Page() {
           <ul className="divide-y divide-stone-300/40">
             {faq.map((f, i) => (
               <li key={f.q}>
-                <details className="group py-5 [&_summary::-webkit-details-marker]:hidden">
-                  <summary className="flex cursor-pointer items-baseline justify-between gap-4">
-                    <h3 className="font-serif text-xl italic text-stone-900">
-                      <span className="font-jost text-xs not-italic uppercase tracking-[0.2em] text-rose-700/70">
-                        {String(i + 1).padStart(2, "0")}
+                <MotionAccordionItem
+                  trigger={({ isOpen }) => (
+                    <div className="flex items-baseline justify-between gap-4 py-5">
+                      <h3 className="font-serif text-xl italic text-stone-900">
+                        <span className="font-jost text-xs not-italic uppercase tracking-[0.2em] text-rose-700/70">
+                          {String(i + 1).padStart(2, "0")}
+                        </span>
+                        {"  "}
+                        {f.q}
+                      </h3>
+                      <span aria-hidden className={`font-serif text-2xl text-rose-700/60 transition duration-300 ${isOpen ? "rotate-45" : ""}`}>
+                        +
                       </span>
-                      {"  "}
-                      {f.q}
-                    </h3>
-                    <span aria-hidden className="font-serif text-2xl text-rose-700/60 transition group-open:rotate-45">
-                      +
-                    </span>
-                  </summary>
-                  <p className="mt-3 text-stone-700">{f.a}</p>
-                </details>
+                    </div>
+                  )}
+                >
+                  <p className="pb-5 text-stone-700">{f.a}</p>
+                </MotionAccordionItem>
               </li>
             ))}
           </ul>

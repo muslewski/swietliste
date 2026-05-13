@@ -4,6 +4,7 @@ import { useRef } from "react";
 import Link from "next/link";
 import { motion, useScroll, useTransform, type Variants, type MotionValue } from "motion/react";
 import { ease, viewportOnce } from "@/lib/motion";
+import { MotionAccordionItem } from "@/lib/motion-faq";
 import {
   brand,
   aboutBlocks,
@@ -437,15 +438,18 @@ export default function Example8Page() {
           <ul className="divide-y divide-stone-300 border-y border-stone-300">
             {faq.map((f) => (
               <li key={f.q}>
-                <details className="group py-6 [&_summary::-webkit-details-marker]:hidden">
-                  <summary className="flex cursor-pointer items-baseline justify-between gap-6">
-                    <h3 className="font-display text-2xl italic">{f.q}</h3>
-                    <span aria-hidden className="font-display text-3xl italic text-stone-400 transition group-open:rotate-45">
-                      +
-                    </span>
-                  </summary>
-                  <p className="mt-3 text-stone-700">{f.a}</p>
-                </details>
+                <MotionAccordionItem
+                  trigger={({ isOpen }) => (
+                    <div className="flex items-baseline justify-between gap-6 py-6">
+                      <h3 className="font-display text-2xl italic">{f.q}</h3>
+                      <span aria-hidden className={`font-display text-3xl italic text-stone-400 transition duration-300 ${isOpen ? "rotate-45" : ""}`}>
+                        +
+                      </span>
+                    </div>
+                  )}
+                >
+                  <p className="pb-6 text-stone-700">{f.a}</p>
+                </MotionAccordionItem>
               </li>
             ))}
           </ul>

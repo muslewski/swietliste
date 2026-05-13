@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { motion, type Variants } from "motion/react";
 import { viewportOnce } from "@/lib/motion";
+import { MotionAccordionItem } from "@/lib/motion-faq";
 import {
   brand,
   aboutBlocks,
@@ -321,15 +322,18 @@ export default function Example7Page() {
               <li key={f.q}
                   className="border-4 border-black"
                   style={{ background: [YELLOW, MINT, ACCENT, VIOLET, "#FFFFFF"][i], boxShadow: "6px 6px 0 0 #000" }}>
-                <details className="group [&_summary::-webkit-details-marker]:hidden">
-                  <summary className="flex cursor-pointer items-baseline justify-between gap-4 p-5">
-                    <h3 className="text-xl font-black uppercase leading-tight md:text-2xl">
-                      Q{String(i + 1).padStart(2, "0")} — {f.q}
-                    </h3>
-                    <span aria-hidden className="text-3xl font-black transition group-open:rotate-45">+</span>
-                  </summary>
+                <MotionAccordionItem
+                  trigger={({ isOpen }) => (
+                    <div className="flex items-baseline justify-between gap-4 p-5">
+                      <h3 className="text-xl font-black uppercase leading-tight md:text-2xl">
+                        Q{String(i + 1).padStart(2, "0")} — {f.q}
+                      </h3>
+                      <span aria-hidden className={`text-3xl font-black transition duration-300 ${isOpen ? "rotate-45" : ""}`}>+</span>
+                    </div>
+                  )}
+                >
                   <p className="border-t-2 border-black p-5 text-sm font-medium leading-relaxed">{f.a}</p>
-                </details>
+                </MotionAccordionItem>
               </li>
             ))}
           </ul>

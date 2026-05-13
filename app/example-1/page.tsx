@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { motion, type Variants } from "motion/react";
 import { ease, viewportOnce } from "@/lib/motion";
+import { MotionAccordionItem } from "@/lib/motion-faq";
 import {
   brand,
   aboutBlocks,
@@ -428,23 +429,26 @@ export default function Example1Page() {
         <ul className="divide-y divide-stone-300/60 border-y border-stone-300/60">
           {faq.map((f, i) => (
             <li key={f.q}>
-              <details className="group py-6 [&_summary::-webkit-details-marker]:hidden">
-                <summary className="flex cursor-pointer items-baseline justify-between gap-6">
-                  <h3 className="font-display text-2xl">
-                    <span className="font-mono text-xs text-amber-900/60">
-                      {String(i + 1).padStart(2, "0")} ·{" "}
+              <MotionAccordionItem
+                trigger={({ isOpen }) => (
+                  <div className="flex items-baseline justify-between gap-6 py-6">
+                    <h3 className="font-display text-2xl">
+                      <span className="font-mono text-xs text-amber-900/60">
+                        {String(i + 1).padStart(2, "0")} ·{" "}
+                      </span>
+                      {f.q}
+                    </h3>
+                    <span
+                      aria-hidden
+                      className={`font-display text-3xl text-stone-400 transition duration-300 ${isOpen ? "rotate-45" : ""}`}
+                    >
+                      +
                     </span>
-                    {f.q}
-                  </h3>
-                  <span
-                    aria-hidden
-                    className="font-display text-3xl text-stone-400 transition group-open:rotate-45"
-                  >
-                    +
-                  </span>
-                </summary>
-                <p className="mt-4 max-w-2xl text-stone-600">{f.a}</p>
-              </details>
+                  </div>
+                )}
+              >
+                <p className="max-w-2xl pb-6 text-stone-600">{f.a}</p>
+              </MotionAccordionItem>
             </li>
           ))}
         </ul>

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { motion, type Variants } from "motion/react";
 import { ease, viewportOnce } from "@/lib/motion";
+import { MotionAccordionItem } from "@/lib/motion-faq";
 import {
   brand,
   aboutBlocks,
@@ -380,13 +381,16 @@ export default function Example2Page() {
           <ul className="mt-12 divide-y divide-white/10 border-y border-white/10">
             {faq.map((f) => (
               <li key={f.q}>
-                <details className="group py-6 [&_summary::-webkit-details-marker]:hidden">
-                  <summary className="flex cursor-pointer items-baseline justify-between gap-6">
-                    <h3 className="font-display text-xl text-neutral-100 sm:text-2xl">{f.q}</h3>
-                    <span aria-hidden className="font-display text-2xl transition group-open:rotate-45" style={{ color: GOLD }}>+</span>
-                  </summary>
-                  <p className="mt-3 text-neutral-400">{f.a}</p>
-                </details>
+                <MotionAccordionItem
+                  trigger={({ isOpen }) => (
+                    <div className="flex items-baseline justify-between gap-6 py-6">
+                      <h3 className="font-display text-xl text-neutral-100 sm:text-2xl">{f.q}</h3>
+                      <span aria-hidden className={`font-display text-2xl transition duration-300 ${isOpen ? "rotate-45" : ""}`} style={{ color: GOLD }}>+</span>
+                    </div>
+                  )}
+                >
+                  <p className="pb-6 text-neutral-400">{f.a}</p>
+                </MotionAccordionItem>
               </li>
             ))}
           </ul>

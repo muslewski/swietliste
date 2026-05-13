@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { motion, type Variants } from "motion/react";
 import { ease, viewportOnce } from "@/lib/motion";
+import { MotionAccordionItem } from "@/lib/motion-faq";
+import { CountUp, parseStatValue } from "@/lib/count-up";
 import {
   brand,
   aboutBlocks,
@@ -122,19 +124,22 @@ export default function Example10Page() {
             — maison index —
           </p>
           <ul className="mt-10 grid grid-cols-2 divide-stone-300 md:grid-cols-4 md:divide-x">
-            {stats.map((s, i) => (
-              <li key={s.label} className={`px-4 ${i > 0 ? "" : ""}`}>
-                <p className="text-[10px] uppercase tracking-[0.4em]" style={{ color: ACCENT }}>
-                  N° 0{i + 1}
-                </p>
-                <p className="mt-4 font-bodoni text-stone-900"
-                   style={{ fontSize: "clamp(3rem, 7vw, 6rem)", fontWeight: 400, lineHeight: 0.9 }}>
-                  {s.value}
-                </p>
-                <p className="mt-3 text-sm italic text-stone-700">{s.label}</p>
-                <p className="mt-1 text-[10px] uppercase tracking-[0.3em] text-stone-500">{s.note}</p>
-              </li>
-            ))}
+            {stats.map((s, i) => {
+              const { num, suffix } = parseStatValue(s.value);
+              return (
+                <li key={s.label} className="px-4">
+                  <p className="text-[10px] uppercase tracking-[0.4em]" style={{ color: ACCENT }}>
+                    N° 0{i + 1}
+                  </p>
+                  <p className="mt-4 font-bodoni text-stone-900"
+                     style={{ fontSize: "clamp(3rem, 7vw, 6rem)", fontWeight: 400, lineHeight: 0.9 }}>
+                    <CountUp to={num} suffix={suffix} duration={1.8} />
+                  </p>
+                  <p className="mt-3 text-sm italic text-stone-700">{s.label}</p>
+                  <p className="mt-1 text-[10px] uppercase tracking-[0.3em] text-stone-500">{s.note}</p>
+                </li>
+              );
+            })}
           </ul>
         </div>
       </section>
@@ -349,18 +354,21 @@ export default function Example10Page() {
           <ul className="mt-12 divide-y divide-stone-300 border-y border-stone-900">
             {faq.map((f, i) => (
               <li key={f.q}>
-                <details className="group py-6 [&_summary::-webkit-details-marker]:hidden">
-                  <summary className="flex cursor-pointer items-baseline justify-between gap-6">
-                    <h3 className="font-bodoni text-2xl text-stone-900" style={{ fontWeight: 400 }}>
-                      <span className="text-[10px] uppercase tracking-[0.4em]" style={{ color: ACCENT }}>
-                        N° 0{i + 1} ·{" "}
-                      </span>
-                      {f.q}
-                    </h3>
-                    <span aria-hidden className="font-bodoni text-3xl transition group-open:rotate-45" style={{ color: ACCENT }}>+</span>
-                  </summary>
-                  <p className="mt-4 text-stone-700">{f.a}</p>
-                </details>
+                <MotionAccordionItem
+                  trigger={({ isOpen }) => (
+                    <div className="flex items-baseline justify-between gap-6 py-6">
+                      <h3 className="font-bodoni text-2xl text-stone-900" style={{ fontWeight: 400 }}>
+                        <span className="text-[10px] uppercase tracking-[0.4em]" style={{ color: ACCENT }}>
+                          N° 0{i + 1} ·{" "}
+                        </span>
+                        {f.q}
+                      </h3>
+                      <span aria-hidden className={`font-bodoni text-3xl transition duration-300 ${isOpen ? "rotate-45" : ""}`} style={{ color: ACCENT }}>+</span>
+                    </div>
+                  )}
+                >
+                  <p className="pb-6 text-stone-700">{f.a}</p>
+                </MotionAccordionItem>
               </li>
             ))}
           </ul>

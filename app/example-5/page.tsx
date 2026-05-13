@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { motion, type Variants } from "motion/react";
 import { ease, viewportOnce } from "@/lib/motion";
+import { MotionAccordionItem } from "@/lib/motion-faq";
 import {
   brand,
   aboutBlocks,
@@ -286,16 +287,19 @@ export default function Example5Page() {
           <ul className="divide-y-2 divide-black border-b-2 border-black">
             {faq.map((f, i) => (
               <li key={f.q}>
-                <details className="group py-6 [&_summary::-webkit-details-marker]:hidden">
-                  <summary className="flex cursor-pointer items-baseline justify-between gap-4">
-                    <h3 className="font-display text-2xl tracking-tight">
-                      <span className="font-mono text-xs text-neutral-500">Q{String(i + 1).padStart(2, "0")}</span>{" — "}
-                      {f.q}
-                    </h3>
-                    <span aria-hidden className="font-display text-3xl transition group-open:rotate-45">+</span>
-                  </summary>
-                  <p className="mt-3 font-source-serif text-lg leading-relaxed text-stone-700">{f.a}</p>
-                </details>
+                <MotionAccordionItem
+                  trigger={({ isOpen }) => (
+                    <div className="flex items-baseline justify-between gap-4 py-6">
+                      <h3 className="font-display text-2xl tracking-tight">
+                        <span className="font-mono text-xs text-neutral-500">Q{String(i + 1).padStart(2, "0")}</span>{" — "}
+                        {f.q}
+                      </h3>
+                      <span aria-hidden className={`font-display text-3xl transition duration-300 ${isOpen ? "rotate-45" : ""}`}>+</span>
+                    </div>
+                  )}
+                >
+                  <p className="pb-6 font-source-serif text-lg leading-relaxed text-stone-700">{f.a}</p>
+                </MotionAccordionItem>
               </li>
             ))}
           </ul>

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { motion, type Variants } from "motion/react";
 import { ease, viewportOnce } from "@/lib/motion";
+import { MotionAccordionItem } from "@/lib/motion-faq";
 import {
   brand,
   aboutBlocks,
@@ -309,17 +310,20 @@ export default function Example4Page() {
           <ul className="divide-y divide-neutral-200 border-y border-neutral-200">
             {faq.map((f, i) => (
               <li key={f.q}>
-                <details className="group py-10 [&_summary::-webkit-details-marker]:hidden">
-                  <summary className="flex cursor-pointer items-baseline justify-between gap-6">
-                    <h3 className="font-display tracking-tight text-neutral-900"
-                        style={{ fontSize: "clamp(1.5rem, 3.5vw, 3rem)", lineHeight: 1.05 }}>
-                      <span className="font-mono text-sm text-neutral-300">{String(i + 1).padStart(2, "0")}.</span>{" "}
-                      {f.q}
-                    </h3>
-                    <span aria-hidden className="text-4xl transition group-open:rotate-45" style={{ color: ACCENT }}>+</span>
-                  </summary>
-                  <p className="mt-6 max-w-2xl text-xl text-neutral-700">{f.a}</p>
-                </details>
+                <MotionAccordionItem
+                  trigger={({ isOpen }) => (
+                    <div className="flex items-baseline justify-between gap-6 py-10">
+                      <h3 className="font-display tracking-tight text-neutral-900"
+                          style={{ fontSize: "clamp(1.5rem, 3.5vw, 3rem)", lineHeight: 1.05 }}>
+                        <span className="font-mono text-sm text-neutral-300">{String(i + 1).padStart(2, "0")}.</span>{" "}
+                        {f.q}
+                      </h3>
+                      <span aria-hidden className={`text-4xl transition duration-300 ${isOpen ? "rotate-45" : ""}`} style={{ color: ACCENT }}>+</span>
+                    </div>
+                  )}
+                >
+                  <p className="max-w-2xl pb-10 text-xl text-neutral-700">{f.a}</p>
+                </MotionAccordionItem>
               </li>
             ))}
           </ul>

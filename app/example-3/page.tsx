@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { motion, type Variants } from "motion/react";
 import { appleSpring, viewportOnce } from "@/lib/motion";
+import { MotionAccordionItem } from "@/lib/motion-faq";
 import {
   brand,
   aboutBlocks,
@@ -368,13 +369,16 @@ export default function Example3Page() {
         <ul className={`grid grid-cols-1 gap-px overflow-hidden rounded-3xl bg-neutral-200 ${SHADOW} md:grid-cols-2`}>
           {faq.map((f) => (
             <li key={f.q} className="bg-white">
-              <details className="group p-6 [&_summary::-webkit-details-marker]:hidden">
-                <summary className="flex cursor-pointer items-baseline justify-between gap-4">
-                  <h3 className="text-base font-semibold tracking-tight">{f.q}</h3>
-                  <span aria-hidden className="text-xl text-neutral-300 transition group-open:rotate-45">+</span>
-                </summary>
-                <p className="mt-3 text-sm text-neutral-600">{f.a}</p>
-              </details>
+              <MotionAccordionItem
+                trigger={({ isOpen }) => (
+                  <div className="flex items-baseline justify-between gap-4 p-6">
+                    <h3 className="text-base font-semibold tracking-tight">{f.q}</h3>
+                    <span aria-hidden className={`text-xl text-neutral-300 transition duration-300 ${isOpen ? "rotate-45" : ""}`}>+</span>
+                  </div>
+                )}
+              >
+                <p className="px-6 pb-6 text-sm text-neutral-600">{f.a}</p>
+              </MotionAccordionItem>
             </li>
           ))}
         </ul>
