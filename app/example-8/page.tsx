@@ -110,7 +110,7 @@ export default function Example8Page() {
 
   return (
     <main className="bg-white font-garamond text-stone-900">
-      <div className="fixed left-4 top-1/2 z-40 -translate-y-1/2 rotate-180 [writing-mode:vertical-rl] font-mono text-[10px] uppercase tracking-[0.4em] text-stone-500 mix-blend-difference">
+      <div className="fixed left-4 top-1/2 z-40 hidden -translate-y-1/2 rotate-180 [writing-mode:vertical-rl] font-mono text-[10px] uppercase tracking-[0.4em] text-stone-500 mix-blend-difference lg:block">
         Świetliste · reel 2026
       </div>
 
