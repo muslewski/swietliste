@@ -251,8 +251,13 @@ export const testimonials = [
   },
 ];
 
+// Years since studio founded — computed at module init so the page never
+// has to be republished just because a calendar year ticked over.
+const FOUNDED_YEAR = 2010;
+const yearsSinceFounding = new Date().getFullYear() - FOUNDED_YEAR;
+
 export const stats = [
-  { value: "14+", label: "lat doświadczenia", note: "od 2010 r." },
+  { value: `${yearsSinceFounding}+`, label: "lat doświadczenia", note: `od ${FOUNDED_YEAR} r.` },
   { value: "300+", label: "historii miłosnych", note: "zrealizowanych reportaży" },
   { value: "16", label: "województw", note: "działamy w całej Polsce" },
   { value: "1 dzień", label: "czas odpowiedzi", note: "średnio na zapytanie" },
