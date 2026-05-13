@@ -4,7 +4,20 @@
  * Source-of-truth lives in content/subpages/<slug>/content.json (scraped from swietliste.pl).
  * This module pulls the essentials into typed exports so each example page imports
  * one consistent shape instead of re-reading JSON.
+ *
+ * Image URLs from swietliste.pl are served only over plain HTTP (their HTTPS
+ * cert belongs to home.pl, browsers reject it). To avoid mixed-content
+ * blocking when this site is served over HTTPS (Vercel), we route every
+ * swietliste.pl image through /api/img — see post-processing at the bottom.
  */
+
+/** Wraps swietliste.pl HTTP image URLs through our same-origin proxy. */
+function proxify(url: string): string {
+  if (/^https?:\/\/([a-z]+\.)?swietliste\.pl\//i.test(url)) {
+    return `/api/img?u=${encodeURIComponent(url)}`;
+  }
+  return url;
+}
 
 export const brand = {
   name: "Świetliste",
@@ -345,6 +358,24 @@ export const extraStories = [
       "http://swietliste.pl/wp-content/uploads/2017/05/Swietliste-fotografia-slubna-rustykalna-sesja-boho-pustynna-cisza.jpg",
   },
 ];
+
+// --- Proxy all swietliste.pl image URLs through /api/img ---
+// Runs once at module init. Mutates in place so callers see proxied URLs.
+for (let i = 0; i < heroImages.length; i++) {
+  heroImages[i] = proxify(heroImages[i]);
+}
+for (const key of Object.keys(categoryImages) as Array<keyof typeof categoryImages>) {
+  categoryImages[key] = proxify(categoryImages[key]);
+}
+for (const s of featuredStories) {
+  s.image = proxify(s.image);
+}
+for (const s of extraStories) {
+  s.image = proxify(s.image);
+}
+for (const t of testimonials) {
+  t.image = proxify(t.image);
+}
 
 // Index of all 10 example styles, used by the landing page at "/"
 export const exampleIndex = [
