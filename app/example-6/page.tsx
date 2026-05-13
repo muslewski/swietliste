@@ -277,11 +277,6 @@ export default function Example6Page() {
             </motion.li>
           ))}
         </motion.ul>
-        <div className="mt-12 text-center">
-          <a href="#" className="rounded-full border border-stone-400/60 bg-white/40 px-7 py-3 text-sm text-stone-700 backdrop-blur-md transition hover:bg-white/70">
-            Cała galeria reportaży →
-          </a>
-        </div>
       </section>
 
       {/* TESTIMONIALS — large floating glass quotes */}
